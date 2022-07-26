@@ -82,6 +82,6 @@ export default {
             font-weight : bold
         }
         .text-red {
-            color :red;
+            color :skyblue;
         }
     </style>
