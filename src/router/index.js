@@ -31,6 +31,11 @@ const routes = [
     path: '/databindingButton',
     name: 'databindingButton',
     component: () => import('../views/DataBindingButton.vue')
+  },
+  {
+    path: '/DataBindingList2',
+    name: 'DataBindingList2',
+    component: () => import('../views/DataBindingList2.vue')
   }
 ]
 

@@ -4,6 +4,7 @@
     <router-link to="/DataBinding">DataBinding</router-link>|
     <router-link to="/DataBindingClass">DataBindingClass</router-link>|
     <router-link to="/DataBindingButton">DataBindingButton</router-link>|
+    <router-link to="/DataBindingList2">DataBindingList2</router-link>|
 
   </nav>
   <router-view></router-view>
