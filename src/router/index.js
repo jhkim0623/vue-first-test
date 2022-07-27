@@ -36,6 +36,11 @@ const routes = [
     path: '/DataBindingList2',
     name: 'DataBindingList2',
     component: () => import('../views/DataBindingList2.vue')
+  },
+  {
+    path: '/NestedComponent',
+    name: 'NestedComponent',
+    component: () => import('../views/NestedComponent.vue')
   }
 ]
 

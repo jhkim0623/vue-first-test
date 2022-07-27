@@ -1,20 +1,20 @@
 <template>
-    <div>
-        <table>
-            <thead>
-                <tr>
-                    <th>name</th>
-                    <th>price</th>
-                </tr>
-            </thead>
-            <tbody>
-               <tr :key="i" v-for="(product,i) in productList" >
-                    <td>{{ product.name }}</td>
-                    <td>{{product.price}}</td>
-               </tr>
-            </tbody>
-        </table>
-    </div>
+  <div>
+      <table>
+          <thead>
+              <tr>
+                  <th>name</th>
+                  <th>price</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr :key="i" v-for="(product,i) in productList" >
+                  <td>{{ product.name }}</td>
+                  <td>{{product.price}}</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
 </template>
 
 <script>
