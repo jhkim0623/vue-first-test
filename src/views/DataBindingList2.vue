@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     async getList2 () {
-      this.productList = await this.$api('http://opendata.kwater.or.kr/openapi-data/service/pubd/dam/excllncobsrvt/mntrf/list?serviceKey=B%2FQtKR%2B%2FBNpNL8fPGGQ%2F%2FWRr5RCS%2FNqUkwsluZQ9GYhtFN73KdcFzwyxIAo7GCgAwQr2V3qgXzHAn9yA4zwjiw%3D%3D&sdate=2014-12-01&stime=08&edate=2014-12-01&etime=15&excll=1012432&tms=10&numOfRows=10&pageNo=1', 'get')
+      this.productList = await this.$api('https://c6a01069-7e3a-454e-82e6-40553fc6cbd1.mock.pstmn.io/list', 'get')
     }
   }
 }
