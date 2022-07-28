@@ -41,6 +41,11 @@ const routes = [
     path: '/NestedComponent',
     name: 'NestedComponent',
     component: () => import('../views/NestedComponent.vue')
+  },
+  {
+    path: '/CalculatorTest',
+    name: '/CalculatorTest',
+    component: () => import('../views/CalculatorTest.vue')
   }
 ]
 

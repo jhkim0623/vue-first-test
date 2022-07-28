@@ -7,6 +7,7 @@
     <br>
     <router-link to="/DataBindingList2">DataBindingList2</router-link>|
     <router-link to="/NestedComponent">NestedComponent</router-link>|
+    <router-link to="/CalculatorTest">CalculatorTest</router-link>
   </nav>
   <router-view></router-view>
 </template>
